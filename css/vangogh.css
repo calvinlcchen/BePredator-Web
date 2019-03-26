@@ -115,7 +115,7 @@ a:hover {
 }
 */
 .link {
-  color: #84ba3f;
+/*  color: #000;*/
   text-decoration: none;
   cursor: pointer;
 }
@@ -308,6 +308,20 @@ input[type="file"] {
     padding-left: 10px;
 }
 
+.h-90 {
+	height: 90px;
+}
+
+.l-height-90 {
+	line-height: 90px;
+}
+
+.uploadimgbtn-box {
+	height: 90px;
+	line-height: 90px;
+	margin-top: 0;
+	border-top: 1px solid #eeeeee;
+}
 @media (max-width: 992px) {
     .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
     display: none;
