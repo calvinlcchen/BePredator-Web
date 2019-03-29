@@ -68,7 +68,7 @@ function transferImg() {
 }
 
 function modelLoaded1() {
-    outputImgContainer.addClass('reverse-img');
+   // outputImgContainer.addClass('reverse-img');
   //      modelReady = true;
     nets1.transfer(gotResult);
 }
@@ -153,7 +153,7 @@ function useWebcam() {
 }
 
 function deactiveWebcam() {
-  outputImgContainer.removeClass('reverse-img');
+ // outputImgContainer.removeClass('reverse-img');
  
   if (webcam) {
     video.hide();
