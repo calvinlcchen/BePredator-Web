@@ -63,8 +63,8 @@ function transferImg() {
     if (webcam) deactiveWebcam();
     console.log("transferImg");
      
-    nets = new ml5.styleTransfer('models/' + currentModel + '/', modelLoaded);
-    
+    nets = ml5.styleTransfer('models/' + currentModel + '/', modelLoaded);
+    //nets = new ml5.styleTransfer('models/' + currentModel + '/', modelLoaded);
 }
 
 function modelLoaded1() {
@@ -88,7 +88,8 @@ function gotResult(err, img) {
 
     // webcam transfer process
 function transferVideo() {
-        nets1 = new ml5.styleTransfer('models/' + currentModel + '/', video, modelLoaded1);
+    //nets1 = new ml5.styleTransfer('models/' + currentModel + '/', video, modelLoaded1);
+    nets1 = ml5.styleTransfer('models/' + currentModel + '/', video, modelLoaded1);
 }
 
 function draw() {
